@@ -8,9 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    if n==k:
-        return s[n]
-    else:
-        return s[n:k]
-
+    w=s[n:k]
+    return w
 print(main("apple", 2, 2))
